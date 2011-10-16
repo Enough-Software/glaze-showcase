@@ -47,7 +47,7 @@ public class Showcase extends UiApplication {
 	 */
 	public Showcase() {
 		// install the Amplitude and ComicSans Font
-		//FontManager.getInstance().load("social/Amplitude-Bold.ttf", "Amplitude", 0);
+		FontManager.getInstance().load("social/Amplitude-Bold.ttf", "Amplitude", 0);
 		
 		// create a sandbox for the unstyled example
 		plain = new StyleSheetSandbox("http://pastebin.com/raw.php?i=auTcDFec") {
