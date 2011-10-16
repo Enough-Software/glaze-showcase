@@ -26,16 +26,4 @@
 		<nature>net.rim.ejde.BlackBerryProjectCoreNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>glaze.core</name>
-			<type>2</type>
-			<location>D:/SE/workspace.glaze/enough-glaze/src/core</location>
-		</link>
-		<link>
-			<name>glaze.ui</name>
-			<type>2</type>
-			<location>D:/SE/workspace.glaze/enough-glaze/src/6.0.0</location>
-		</link>
-	</linkedResources>
 </projectDescription>

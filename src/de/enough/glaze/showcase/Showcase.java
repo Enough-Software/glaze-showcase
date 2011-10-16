@@ -1,9 +1,9 @@
 package de.enough.glaze.showcase;
 
-import net.rim.device.api.ui.FontManager;
+import net.rim.device.api.system.ApplicationManager;
+import net.rim.device.api.system.DeviceInfo;
 import net.rim.device.api.ui.Screen;
 import net.rim.device.api.ui.UiApplication;
-import de.enough.glaze.log.Log;
 import de.enough.glaze.style.StyleSheetSandbox;
 
 /*
@@ -47,10 +47,10 @@ public class Showcase extends UiApplication {
 	 */
 	public Showcase() {
 		// install the Amplitude and ComicSans Font
-		FontManager.getInstance().load("social/Amplitude-Bold.ttf", "Amplitude", 0);
+		//FontManager.getInstance().load("social/Amplitude-Bold.ttf", "Amplitude", 0);
 		
 		// create a sandbox for the unstyled example
-		plain = new StyleSheetSandbox("res://plain/styles.css") {
+		plain = new StyleSheetSandbox("http://pastebin.com/raw.php?i=auTcDFec") {
 
 			/*
 			 * (non-Javadoc)
